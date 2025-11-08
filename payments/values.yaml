@@ -6,3 +6,7 @@ appMessage: "Payments Service"
 service:
   type: ClusterIP
   port: 80
+serviceAccount:
+  create: true
+  name: ""
+  annotations: {}
